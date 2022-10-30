@@ -7,11 +7,10 @@ def main(n):
         string: return  answer
     """
     list1 = ''
-    list = []
+    list = [] 
     m = ','
-    
     for i in range(n):
         list.append(str(i))
         str(list)
         k = m.join(list)
-        return k
+    return k
