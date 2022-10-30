@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    list2 = []
+    k = len(list1)
+    for i in range(len(list1)):
+        list2.append(list1[i].capitalize())
+    return list2
+print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
